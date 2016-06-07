@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*====================================*\
+						    C3H5
+		1.sanitize
+			1.1 bugs
+			1.2
+		2. Fonts
+		3. Layout
+		4. Typo
+			4.1 Headings
+			4.2 Text
+\*====================================*/
+/*------------------------------------*\
+    SANITIZE
+\*------------------------------------*/
+/* BUGS ==============================*/
+/**************************************
+*	BUGS
+*	1- FF46.0.1 & FF48.0a2
+***************************************/
+html {
+	-moz-user-input: disabled; /* 1 */
+}
+/*------------------------------------*\
+    FONTS
+\*------------------------------------*/
+.sans-serif,
+.sans-serif > p {
+font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif
+}
+.sans-serif2,
+.sans-serif > h1 {
+	font-family: Corbel, "DejaVu Sans", "Trebuchet MS", "Verdana", sans-serif
+}
+.serif {
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif
+}
+.serif2 {
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, serif
+}
+.monospace, code, kbd, pre, samp, .console {
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace
+	}
+.black {
+	font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif
+}
+/*------------------------------------*\
+    LAYOUTS
+\*------------------------------------*/
+main,
+article {
+	width: 98%;
+	margin: 0 auto;
+}
+main {
+	max-width: 1440px;
+	}
+article {
+	max-width: 720px;
+}
